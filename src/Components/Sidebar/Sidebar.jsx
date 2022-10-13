@@ -27,12 +27,12 @@ function Sidebar() {
 
     <ul>
             <li>
-              <a target="_blank" className='' rel='noreferrer' href="#">
+              <a target="_blank" className='' rel='noreferrer' href="https://www.linkedin.com/in/agustinzarate/">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </li>
             <li>
-              <a target="_blank" className='' rel='noreferrer' href="#">
+              <a target="_blank" className='' rel='noreferrer' href="https://github.com/AgustinZarate">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>
