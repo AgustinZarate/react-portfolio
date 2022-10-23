@@ -9,9 +9,9 @@ function Home() {
   const [loopNum, setLoopNum ] = useState(0);
   const [isDeleting, setisDeleting ] = useState(false);
   const [text, setText] = useState('');
-  const toRotate = ['Web Developer','UX/UI Designer', 'Front End Developer jr.'];
-  const period = 2000;
-  const [delta, setDelta] = useState(100 - Math.random() * 300);
+  const toRotate = ['Web Developer','UX/UI Designer', 'Front End Developer'];
+  const period = 500;
+  const [delta, setDelta] = useState(50 - Math.random() * 300);
 
   useEffect(()=>{
     let ticker = setInterval(()=>{
@@ -38,7 +38,7 @@ function Home() {
     } else if (isDeleting && updatedText === ''){
       setisDeleting(false);
       setLoopNum(loopNum + 1);
-      setDelta(500);
+      setDelta(50);
     }
   }
 
